@@ -6,14 +6,14 @@ int main() {
 
 	int var{}, sum{};
 	
-	std::cout << "Ââåäèòå öåëîå ÷èñëî:" << std::endl;
+	std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ñ†ĞµĞ»Ğ¾Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾:" << std::endl;
 	std::cin >> var;
 
 	while (var != 0) {
 		sum += var % 10;
 		var /= 10;
 	}
-	std::cout << "Ñóììà: " << sum << std::endl;
+	std::cout << "Ğ¡ÑƒĞ¼Ğ¼Ğ°: " << sum << std::endl;
 
 	return EXIT_SUCCESS;
 }
